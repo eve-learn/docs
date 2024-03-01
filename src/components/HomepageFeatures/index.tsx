@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Book a lesson',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Evelearn is a first and foremost a platform for teachers and language learners.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Create Flash Cards, Activities, Courses, and Books',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        As you learn you can create flashcards, you can also create activities for specialized learning. Courses are comprised of multiple activity sets. Books can be uploaded and read with extra learning tools.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Games and more',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Daily and multiplayer games are available. They can spice up the classroom experience by serving as a warm-up or custom interactive lesson.
       </>
     ),
   },
