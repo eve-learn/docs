@@ -11,16 +11,16 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Book a lesson',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/book.png').default,
     description: (
       <>
-        Evelearn is a first and foremost a platform for teachers and language learners.
+        55 minute long lessons. No commission taken from teacher.
       </>
     ),
   },
   {
     title: 'Create Flash Cards, Activities, Courses, and Books',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/flash.png').default,
     description: (
       <>
         As you learn you can create flashcards, you can also create activities for specialized learning. Courses are comprised of multiple activity sets. Books can be uploaded and read with extra learning tools.
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Games and more',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/mcpractice.png').default,
     description: (
       <>
         Daily and multiplayer games are available. They can spice up the classroom experience by serving as a warm-up or custom interactive lesson.
