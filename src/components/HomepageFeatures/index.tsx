@@ -4,14 +4,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Image: any;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Book a lesson',
-    Svg: require('@site/static/img/book.png').default,
+    Image: require('@site/static/img/book.png').default,
     description: (
       <>
         55 minute long lessons. No commission taken from teacher.
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Create Flash Cards, Activities, Courses, and Books',
-    Svg: require('@site/static/img/flash.png').default,
+    Image: require('@site/static/img/flash.png').default,
     description: (
       <>
         As you learn you can create flashcards, you can also create activities for specialized learning. Courses are comprised of multiple activity sets. Books can be uploaded and read with extra learning tools.
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Games and more',
-    Svg: require('@site/static/img/mcpractice.png').default,
+    Image: require('@site/static/img/mcpractice.png').default,
     description: (
       <>
         Daily and multiplayer games are available. They can spice up the classroom experience by serving as a warm-up or custom interactive lesson.
@@ -38,11 +38,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Image, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Image} className={styles.featureSvg} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

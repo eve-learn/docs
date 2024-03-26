@@ -6,6 +6,8 @@
 }
 
 .featureSvg {
-  height: 200px;
+  /* height: 200px; */
   width: 200px;
+  border-radius: 12px;
+  overflow: hidden;
 }

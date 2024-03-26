@@ -60,7 +60,7 @@ const config: Config = {
     navbar: {
       title: 'Evelearn',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Evelearn Logo',
         src: 'img/logo.png',
       },
       items: [
