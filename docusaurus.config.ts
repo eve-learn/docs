@@ -112,7 +112,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/eve-learn/docs/issues',
+              href: 'https://github.com/eve-learn/docs',
             },
           ],
         },
